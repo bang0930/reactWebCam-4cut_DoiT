@@ -76,7 +76,7 @@ function HiddenTakePicturePage({ studentID, selectedFrameSrc }) {
 
   const uploadToS3 = (blob) => {
     const params = {
-      Bucket: "doit4cutbucket", // Replace with your S3 bucket name
+      Bucket: "doit-4cut",
       Key: `${studentID}.png`,
       Body: blob,
       ContentType: "image/png",

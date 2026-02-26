@@ -73,10 +73,10 @@ function TakePicturePage({ studentID, selectedFrameSrc }) {
 
   const uploadToS3 = (blob) => {
     const params = {
-      Bucket: "doit4cutbucket", // Replace with your S3 bucket name
+      Bucket: "doit-4cut",
       Key: `${studentID}.png`,
       Body: blob,
-      ContentType: "image/png", // Adjust the content type based on your file type
+      ContentType: "image/png",
     };
 
     s3.upload(params, (err, data) => {
