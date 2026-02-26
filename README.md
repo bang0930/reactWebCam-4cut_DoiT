@@ -82,6 +82,9 @@ REACT_APP_REGION=ap-northeast-2
 
 * **Organization**: 아주대학교 IT 동아리 Do-iT
 * **Developer**: [PaleBlueNote](https://github.com/PaleBlueNote)
+* **Modifier**: [bang0930](https://github.com/bang0930)
+
+* 
 
 ---
 © 2024 Yoonseokchan. All rights reserved.
