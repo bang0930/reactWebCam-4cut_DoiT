@@ -27,4 +27,8 @@ sketch
 # Optional npm cache directory
 .npm
 
+# vscode settings
+.vscode
+.vscode/*
+
 # End of https://www.toptal.com/developers/gitignore/api/react
