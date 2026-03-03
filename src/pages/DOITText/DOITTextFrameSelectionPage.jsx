@@ -12,10 +12,10 @@ function DOITTextFrameSelectionPage({
   setSelectedFrameName,
 }) {
   const frames = [
-    { image: "/frames/DOITTextFrame/빨강_두잇.png", title: "빨강_두잇 프레임" },
-    { image: "/frames/DOITTextFrame/파랑_두잇.png", title: "파랑_두잇 프레임" },
-    { image: "/frames/DOITTextFrame/하늘_두잇.png", title: "하늘_두잇 프레임" },
-    { image: "/frames/DOITTextFrame/회색_두잇.png", title: "회색_두잇 프레임" },
+    { image: "/frames/DOITTextFrame/빨강_두잇_re.png", title: "빨강_두잇 프레임" },
+    { image: "/frames/DOITTextFrame/파랑_두잇_re.png", title: "파랑_두잇 프레임" },
+    { image: "/frames/DOITTextFrame/하늘_두잇_re.png", title: "하늘_두잇 프레임" },
+    { image: "/frames/DOITTextFrame/회색_두잇_re.png", title: "회색_두잇 프레임" },
   ];
   const [showModal, setShowModal] = useState(false);
   const handleShowModal = () => setShowModal(true);
