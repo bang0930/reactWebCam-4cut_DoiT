@@ -40,9 +40,9 @@ function LandingPage() {
           className="flex flex-col w-full h-full"
         >
           <img
-            src="/frames/DOITTextFrame/빨강_두잇.png"
+            src="/frames/DOITTextFrame/빨강_두잇_re.png"
             className="h-5/6"
-            alt="검정_두잇.png"
+            alt="검정_두잇_re.png"
           ></img>
           <button className="w-full mt-4 h-1/6 btn btn-secondary btn-lg !font-pretendard">
             두잇 글자 프레임
